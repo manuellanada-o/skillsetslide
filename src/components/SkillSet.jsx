@@ -76,7 +76,7 @@ export default function SkillSet() {
   return (
     <div className="App-header" style={{backgroundColor:`#${backgroundColorString.repeat(3)}`, color:`#${colorString.repeat(3)}`}}>
       {itemList[itemIndex]}
-      <div style={{ position:'absolute', bottom:20, fontFamily:'Helvetica, sans-serif', fontSize:12 }}>manuellanada@outlook.com</div>
+      <div style={{ position:'absolute', top:20, fontFamily:'Helvetica, sans-serif', fontSize:12 }}>e: manuellanada@outlook.com</div>
     </div>
   );
 }
