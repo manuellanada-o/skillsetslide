@@ -59,7 +59,7 @@ export default function SkillSet() {
     <p>about</p>
   </div>
 
-  const itemList = [webDev, mobile, design, database, about]
+  const itemList = [webDev, database, design, mobile, about]
 
   setTimeout(() => {
     setBackgroundColorChange(backgroundColorNumber >= 255 ? -Math.abs(backgroundColorChange) : backgroundColorNumber <= 0 ? Math.abs(backgroundColorChange) : backgroundColorChange)
